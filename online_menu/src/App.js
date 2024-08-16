@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import { db, auth } from './firebase';
 import { collection, getDocs, addDoc, updateDoc, deleteDoc, doc } from 'firebase/firestore';
 import { onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth';
-import './App.css';
+import './Menu.css';
+import './Admin.css';
+
 
 function Login({ onLogin }) {
   const [email, setEmail] = useState('');
