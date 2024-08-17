@@ -1,32 +1,15 @@
 /* index.css */
-body {
+body, html {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
+  height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 10px;
-  color: #333;
-}
-
-p {
-  margin: 0 0 15px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
